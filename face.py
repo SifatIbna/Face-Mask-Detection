@@ -37,7 +37,7 @@ while True:
         result=model.predict(reshaped,batch_size=10)
         print(result)
         
-        if result[0][0]>0.5:
+        if result[0][0]>result[0][1]:
             label = 1
         else:
             label = 0
