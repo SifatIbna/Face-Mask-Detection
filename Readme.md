@@ -2,7 +2,7 @@
 
 In this project i tried to Detect Face Mask using CNN and OpenCV.
 
-At First i built the model with CNN with two CONV2d layers followed by MaxPool Layers and using Dropout and Dense , i got arround 97% train accuracy and 98% Validation Accuracy.
+At First i built the model with CNN with two CONV2d layers followed by MaxPool Layers and using Dropout and Dense , i got around 97% train accuracy and 98% Test Accuracy.
 
 ![accuracy](readme/accuracy.png)
 
